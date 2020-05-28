@@ -60,14 +60,53 @@ svg{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-left: 20px;
 }
 
 .job-detail-topline{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .job-level{
   padding:5px 0;
   display: flex;
   font-weight: bolder;
+}
+.posted{
+  margin-right: 15px;
+}
+.job-detail-bottomline{
+display: flex;
+flex-direction: row;
+}
+.contract{
+  margin-right: 15px;
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+}
+.location{
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+}
+.info{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 250px;
+  justify-content: space-between;
+}
+.languages{
+  display: flex;
+}
+
+.feature-style{
+  color: white;
+  background-color:rgb(11, 156, 96);
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: auto;
+  height: fit-content;
+  padding: 3px 5px;
+  font-weight: bold;
 }
