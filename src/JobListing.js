@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const JobListing = (props) => {
   return (
-    <div className="col-12">
+    <div className="main-container">
       <nav className="navbar col-12">
         <svg xmlns="http://www.w3.org/2000/svg">
           <g fill="#63BABA" fillRule="evened">
@@ -13,8 +13,9 @@ const JobListing = (props) => {
       </nav>
       {props.jobs.map((eachjob, index) => {
         return (
-          <div className="container">
-            <div key={index} className="box-container col-12">
+          <div  key={index} className="container">
+              <div  className="col-12">
+            <div  className="box-container">
               {/*  image */}
               <img className="image-container" src={eachjob.logo} alt="" />
               {/* top line information */}
@@ -33,7 +34,7 @@ const JobListing = (props) => {
                   <div className="location">{eachjob.location}</div>
                 </div>
               </div>
-              <div className="info col-1">
+              <div className="info">
                 <div className="feature-style">{eachjob.role}</div>
                 <div className="feature-style">{eachjob.level}</div>
                   {eachjob.languages.map( lang => 
@@ -44,9 +45,10 @@ const JobListing = (props) => {
               </div>
               </div>
             </div>
+            </div>
         );
       })}
-    </div>
+    </div>  
   );
 };
 

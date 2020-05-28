@@ -2,7 +2,6 @@
 /* My Styles */
 body{
 background-color: rgb(224, 237, 241);
-
 }
 
 .navbar{
@@ -22,6 +21,7 @@ svg{
   margin-top: 10px;
   border: 4px solid white;
   border-left-color: green;
+  width: 100%;
 }
 
 .image-container{
@@ -93,7 +93,7 @@ flex-direction: row;
 .info{
   display: inline-flex;
   align-items: center;
-  margin-left: 250px;
+  margin-left: 180px;
   justify-content: space-between;
 }
 .languages{
@@ -109,4 +109,37 @@ flex-direction: row;
   height: fit-content;
   padding: 3px 5px;
   font-weight: bold;
+}
+
+@media(max-width:1000px){
+  .image-container{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info{
+    display: flex;
+    margin-left: auto;
+    width: max-content;
+    margin-right: 0;
+    font-size: 12px;
+    justify-content: flex-start;
+    margin-top: 1px;
+  }
+  .box-container{
+    justify-content: flex-start;
+    width: 100%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .contract,.location{
+   display: inline-flex;
+ }
+ .feature-style{
+  font-weight:normal;
+ }
+ .posted{
+   display: inline-flex;
+ }
 }
