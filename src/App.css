@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* My Styles */
+body{
+background-color: lightblue;
+
+}
+
+.navbar{
+  border: 1px solid rgb(4, 83, 70);
+  background-color: rgb(24, 78, 24);
+}
+
+svg{
+  width:100%;
+}
