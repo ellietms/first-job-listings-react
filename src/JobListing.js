@@ -14,14 +14,19 @@ const JobListing = (props) => {
     return(
     <div className="container">    
     <div key={index} className="box-container">
-        <img className="image-container" src={eachjob.logo} alt="" />
+    {/*  image */}
+    <img className="image-container" src={eachjob.logo} alt="" />
+    {/* top line information */}
     <div className="job-company-detail">
-    <strong>{eachjob.company}</strong>
-    <span>{eachjob.new && <span>New!</span>}</span>
-    <span>{eachjob.featured && <span>FEATURED</span> }</span>
+    <strong className="company-name">{eachjob.company}</strong>
+    {eachjob.new && <strong className="new-job">New!</strong>}
+    {eachjob.featured && <strong className="featured">FEATURED</strong>}
     </div>
-        <div></div>
-        <div></div>
+    <div>
+
+        
+    </div>
+    <div></div>
     </div>    
     </div>
     )
