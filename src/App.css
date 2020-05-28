@@ -38,12 +38,12 @@
 }
 /* My Styles */
 body{
-background-color: rgb(209, 237, 246);
+background-color: rgb(224, 237, 241);
 
 }
 
 .navbar{
-  border: 1px solid rgb(4, 83, 70);
+  border: 1px solid rgb(19, 47, 43);
   background-color: rgb(24, 78, 24);
 }
 
@@ -52,12 +52,24 @@ svg{
 }
 
 .box-container{
-  background-color: lightcyan;
+  background-color: white;
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 4px solid white;
+  border-left-color: green;
 }
 
 .image-container{
-  border-radius: 50%;
-  margin-left: 5%;
+  margin-left: 30px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.job-company-detail{
+  display: flex;
+  padding-top: 30px;
+  padding-left: 5px;
 }
