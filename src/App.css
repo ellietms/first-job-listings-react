@@ -50,3 +50,14 @@ background-color: rgb(209, 237, 246);
 svg{
   width:100%;
 }
+
+.box-container{
+  background-color: lightcyan;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-container{
+  border-radius: 50%;
+  margin-left: 5%;
+}

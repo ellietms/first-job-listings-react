@@ -1,4 +1,5 @@
 import React from "react";
+import Images from './Images'
 import "bootstrap/dist/css/bootstrap.css";
 
 const JobListing = (props) => {
@@ -14,13 +15,7 @@ const JobListing = (props) => {
     <div className="container">
         <div className="row">
             <div className="col-12">
-            {props.jobs.map( eachJob => {
-                
-
-
-            }
-            )
-            }
+            <Images /> 
             </div>
         </div>
     </div>  
