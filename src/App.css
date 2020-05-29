@@ -46,6 +46,10 @@ svg{
   justify-content: flex-start;
 }
 
+.job-level{
+  font-size: 20px;
+}
+
 .new-job{
   color: white;
   background-color: rgb(11, 177, 108);
@@ -100,7 +104,7 @@ flex-direction: row;
 .info{
   display: inline-flex;
   align-items: center;
-  margin-left: 180px;
+  margin-left: 200px;
   justify-content: space-between;
 }
 .languages{
@@ -108,8 +112,8 @@ flex-direction: row;
 }
 
 .feature-style{
-  color: white;
-  background-color:rgb(78, 156, 25);
+  color: rgb(255, 253, 253);
+  background-color:rgb(47, 102, 54);
   border-radius: 8px;
   margin-right: 10px;
   margin-left: auto;
@@ -133,8 +137,8 @@ flex-direction: row;
   .info{
     display: flex;
     margin-left: auto;
+    margin-right: auto;
     width: max-content;
-    margin-right: 0;
     font-size: 12px;
     justify-content: flex-start;
     margin-top: 1px;
@@ -151,6 +155,7 @@ flex-direction: row;
  }
  .feature-style{
   font-weight:normal;
+  margin-top: 10px;
  }
  .posted{
    display: inline-flex;
