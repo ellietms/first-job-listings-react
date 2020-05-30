@@ -16,9 +16,8 @@ const JobListing = (props) => {
           <div  key={index} className="container">
               <div  className="col-12">
             <div  className="box-container">
-              {/*  image */}
+              <div className="job-detail">
               <img className="image-container" src={eachjob.logo} alt="" />
-              {/* top line information */}
               <div className="job-detail">
                 <div className="job-detail-topline">
                   <strong className="company-name">{eachjob.company}</strong>
@@ -26,12 +25,13 @@ const JobListing = (props) => {
                   {eachjob.featured && (
                     <strong className="featured">FEATURED</strong>
                   )}
-                </div>
-                <div className="job-level">{eachjob.position}</div>
+                 <div className="job-level">{eachjob.position}</div>
                 <div className="job-detail-bottomline text-muted">
                   <div className=" posted">{eachjob.postedAt}</div>
                   <div className="contract">{eachjob.contract}</div>
                   <div className="location">{eachjob.location}</div>
+                </div>
+              </div>
                 </div>
               </div>
               <div className="info">
