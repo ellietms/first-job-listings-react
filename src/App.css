@@ -113,8 +113,8 @@ flex-direction: row;
 
 .feature-style{
   color: rgb(255, 253, 253);
-  background-color:rgb(47, 102, 54);
-  border-radius: 8px;
+  background-color: rgb(24, 78, 24);;
+  border-radius: 2px;
   margin-right: 10px;
   margin-left: auto;
   height: fit-content;
